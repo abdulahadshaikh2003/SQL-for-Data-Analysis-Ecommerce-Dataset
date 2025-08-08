@@ -10,10 +10,24 @@ Order_Date, Time, Aging, Customer_Id, Gender, Device_Type, Customer_Login_type,
 Product_Category, Product, Sales, Quantity, Discount, Profit, Shipping_Cost,
 Order_Priority, Payment_method
 
-## Tools
-- MySQL Server (8+)
+## Features
+
+- 🛠Handles all common import errors (dates, empty values, data truncation)
+- Optimized for large datasets
+- Automatic date/time formatting
+- Proper numeric field handling
+- Comprehensive error checking
+
+## Prerequisites
+
+- MySQL Server 8.0+
 - MySQL Workbench
-- GitHub for submission
+- CSV dataset with headers
+
+**Prepare your CSV file**:
+   - Ensure UTF-8 encoding
+   - Verify headers match table columns exactly
+   - Standardize date format to `DD-MM-YYYY`
 
 ## Deliverables
 - `task4_queries.sql` — SQL file containing create table, cleaning steps, analysis queries, views, and index creation.
